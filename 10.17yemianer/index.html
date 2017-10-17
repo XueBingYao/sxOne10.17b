@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+	    <!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <!--禁止浏览器自动的识别-电话号码-email--->
+	    <meta name="format-detection" content="telephone=no,email=no"/>
+	    <!--是否启用Web全屏-->
+	    <meta name="apple-mobile-web-app-capable" content='yes' />
+	    <meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+	    <!--设置苹果工具栏颜色-->
+	    <meta name="apple-mobile-web-app-status-bar-style" content='black' />
+		
+		<script type="text/javascript" src="js/swiper.min.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/index.css"/>
+	</head>
+	<body>
+		<div class="top">
+			<div class="t-1">
+				<span>房先森</span>
+				<font>sirfang.com</font>
+			</div>
+			<div class="t-2">
+				<a href="#"><div><img src="img/1首页_spec_05.png"/><span>我的</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_05.png"/><span>我的</span></div></a>
+			</div>
+		</div>
+		<div class="box">
+			<div class="swiper-container swiper1">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/1首页_spec_12.png"/></div>
+			        <div class="swiper-slide"><img src="img/1首页_spec_12.png"/></div>
+			        <div class="swiper-slide"><img src="img/1首页_spec_12.png"/></div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			</div>
+			<div class="it1">
+				<a href="#"><div><img src="img/1首页_spec_15.png"/><span>装修方案</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_17.png"/><span>装修方案</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_19.png"/><span>装修方案</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_21.png"/><span>装修方案</span></div></a>
+			</div>
+			<div class="it2">
+				<a href="#"><div><img src="img/1首页_spec_27.png"/><span>装修方案</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_28.png"/><span>装修方案</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_29.png"/><span>装修方案</span></div></a>
+				<a href="#"><div><img src="img/1首页_spec_30.png"/><span>装修方案</span></div></a>
+			</div>
+			<div class="title1">
+				<p>
+					<font>全屋装修</font>
+					<span>包设计，包主材，包水电，包施工</span>
+				</p>
+			</div>
+			<div class="swiper-container swiper2">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/1首页_spec_36.png"/></div>
+			        <div class="swiper-slide"><img src="img/1首页_spec_36.png"/></div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			</div>
+			<div class="title2">
+				<a href="#"><p><img src="../10.10shixun/img/IMG_1387_53.jpg"/>0增项，标准施工</p></a>
+				<a href="#"><p><img src="../10.10shixun/img/IMG_1387_53.jpg"/>杜绝项目外包</p></a>
+				<a href="#"><p><img src="../10.10shixun/img/IMG_1387_53.jpg"/>装修贷款</p></a>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			window.onload=function(){
+			    var wid=document.documentElement.clientWidth;
+			    document.documentElement.style.fontSize=wid/750*100+"px";
+			    window.onresize=function(){
+			        document.location.reload();
+			    };
+			}
+			new Swiper(".swiper1",{
+				autoplay:1000,
+				loop:true
+			});
+			new Swiper(".swiper2",{
+				autoplay:1000,
+				loop:true,
+				pagination:".swiper-pagination"
+			});
+		</script>
+	</body>
+</html>

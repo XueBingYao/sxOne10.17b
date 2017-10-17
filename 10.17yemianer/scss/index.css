@@ -1,0 +1,179 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.top {
+  width: 83%;
+  padding-left: 17%;
+  height: 2.02rem;
+  background: url(../img/1首页_spec_03.png) no-repeat 0.18rem center;
+  background-size: 0.7rem 0.7rem;
+  display: flex;
+  justify-content: space-between; }
+  .top .t-1 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .top .t-1 span {
+      font-size: 0.3rem; }
+    .top .t-1 font {
+      font-size: 0.12rem; }
+  .top .t-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .top .t-2 a {
+      text-decoration: none; }
+    .top .t-2 div {
+      width: 0.45rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 0; }
+      .top .t-2 div img {
+        width: 0.45rem;
+        height: 0.45rem; }
+      .top .t-2 div span {
+        font-size: 0.22rem;
+        color: #999; }
+
+.box {
+  flex-grow: 1;
+  width: 100%;
+  overflow: auto; }
+
+.swiper1 {
+  width: 100%;
+  height: 2.35rem; }
+  .swiper1 img {
+    width: 100%;
+    height: 100%; }
+
+.it1 {
+  width: 100%;
+  height: 1.7rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.36rem 0 0.52rem 0; }
+  .it1 a {
+    text-decoration: none; }
+    .it1 a div {
+      width: 1.2rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+      .it1 a div img {
+        width: 100%;
+        height: 1.2rem; }
+      .it1 a div span {
+        display: block;
+        width: 100%;
+        height: 0.28rem;
+        line-height: 0.28rem;
+        font-size: 0.28rem;
+        overflow: hidden;
+        color: #333; }
+
+.it2 {
+  width: 100%;
+  height: 1.7rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.4rem;
+  border-bottom: 0.18rem solid gainsboro; }
+  .it2 a {
+    text-decoration: none; }
+    .it2 a div {
+      width: 1.2rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+      .it2 a div img {
+        width: 100%;
+        height: 1.2rem; }
+      .it2 a div span {
+        display: block;
+        width: 100%;
+        height: 0.28rem;
+        line-height: 0.28rem;
+        font-size: 0.28rem;
+        overflow: hidden;
+        color: #333; }
+
+.title1 {
+  width: 7.15rem;
+  height: 1.06rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; }
+  .title1 p {
+    width: 100%;
+    height: 0.42rem;
+    overflow: hidden;
+    padding-left: 0.1rem;
+    border-left: 0.05rem solid green;
+    display: flex;
+    align-items: center; }
+    .title1 p font {
+      width: 1.5rem;
+      font-size: 0.36rem;
+      overflow: hidden; }
+    .title1 p span {
+      flex-grow: 1;
+      font-size: 0.24rem;
+      color: #999;
+      overflow: hidden;
+      margin-left: 0.2rem; }
+
+.swiper2 {
+  width: 95%;
+  height: 4rem;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 0.25rem; }
+  .swiper2 .swiper-pagination {
+    position: absolute;
+    left: 0;
+    bottom: -0.2rem; }
+  .swiper2 img {
+    width: 100%;
+    height: 100%; }
+
+.title2 {
+  width: 100%;
+  height: 1.08rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .title2 a {
+    width: 30%;
+    height: 0.36rem;
+    text-decoration: none; }
+  .title2 p {
+    width: 100%;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    font-size: 0.28rem;
+    overflow: hidden; }
+    .title2 p img {
+      width: 0.36rem;
+      height: 0.36rem;
+      vertical-align: text-bottom; }
+
+/*# sourceMappingURL=index.css.map */
